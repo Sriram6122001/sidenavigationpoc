@@ -47,14 +47,14 @@ class PlatformWrapper {
 // List<Map<PageConfig<dynamic>,List<String>>> overallErrorList= [];
 // }
 
-class ErrorHandler {
-  static List<Map<PageConfig<dynamic>, List<String>>> overallErrorList = [];
+// class ErrorHandler {
+//   static List<Map<int, List<String>>> overallErrorList = [];
   
-// @observable
-// static int selectedIndex = 0;
-// @action
-// static void setCurrentIndex({required int index}) {
-//   selectedIndex = index;
+// // @observable
+// // static int selectedIndex = 0;
+// // @action
+// // static void setCurrentIndex({required int index}) {
+// //   selectedIndex = index;
+// // }
 // }
-}
 

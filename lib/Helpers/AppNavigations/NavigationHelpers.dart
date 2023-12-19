@@ -283,7 +283,7 @@ class AppRoute {
       error.writeExceptionData();
       return builder(
         CustomRouteSettings(
-          pageConfig: Pages.homeScreenConfig,
+          pageConfig: Pages.errorScreenConfig,
           data: "",
         ),
       );

@@ -1,8 +1,8 @@
 import 'package:errorlog/Pages/SideNavigation/Errors.dart';
-import 'package:errorlog/Pages/SecondScreen/SecondScreen.dart';
+import 'package:errorlog/Pages/SideNavigation/DependentViews/SecondScreen.dart';
 
 import 'NavigationHelpers.dart';
-import '../../Pages/HomeScreen/HomeScreen.dart';
+import '../../Pages/SideNavigation/DependentViews/HomeScreen.dart';
 
 enum Routes {
   HomeScreen,
@@ -17,11 +17,11 @@ class Pages{
   //! Data for Bottom Nav Config 
   Object? data; 
    
-  //! Screen Config
-   static final PageConfig homeScreenConfig = PageConfig( route: Routes.HomeScreen, build: (_) => HomeScreen(extraData: homeScreenConfig.data));
+  // //! Screen Config
+  //  static final PageConfig homeScreenConfig = PageConfig( route: Routes.HomeScreen, build: (_) => HomeScreen(extraData: homeScreenConfig.data));
 
-     //! Screen Config
-   static final PageConfig secondScreenConfig = PageConfig( route: Routes.SecondScreen, build: (_) => SecondScreen(extraData: secondScreenConfig.data));
+  //    //! Screen Config
+  //  static final PageConfig secondScreenConfig = PageConfig( route: Routes.SecondScreen, build: (_) => SecondScreen(extraData: secondScreenConfig.data));
    
         //! Screen Config
    static final PageConfig errorScreenConfig = PageConfig( route: Routes.Errors, build: (_) => Errors(extraData: errorScreenConfig.data));
